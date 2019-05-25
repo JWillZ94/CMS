@@ -1,5 +1,26 @@
-p {
-  color: red;
-}
+p, li, span {
+  font-size: 18px; }
 
-/*# sourceMappingURL=master.css.map */
+.dark-bg {
+  background: #422014;
+  color: #75AF9D; }
+  .dark-bg a {
+    color: #75AF9D; }
+
+.color-bg {
+  background: #75AF9D;
+  color: #D36F4B; }
+  .color-bg h1, .color-bg h2, .color-bg h3 {
+    color: #422014; }
+
+.light-bg {
+  background: #fff;
+  color: #422014; }
+  .light-bg h1, .light-bg h2, .light-bg h3 {
+    color: #EDA286; }
+
+/* Nav section ============================ */
+/* Header section ============================ */
+/* Display section ============================ */
+/* Roles section ============================ */
+/* Footer section ============================ */

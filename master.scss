@@ -1,3 +1,44 @@
-p {
-    color: red;
+$primary: #75AF9D;
+$secondary: #D36F4B;
+$tertiary: #EDA286;
+$dark: #422014;
+$light: #fff;
+
+p, li, span { font-size: 18px; }
+
+.dark-bg {
+    background: $dark;
+    color: $primary;
+
+    a { color: $primary; }
 }
+
+.color-bg {
+    background: $primary;
+
+    h1, h2, h3 {
+        color: $dark;
+    }
+
+    color: $secondary;
+}
+
+.light-bg {
+    background: $light;
+
+    h1, h2, h3 {
+        color: $tertiary;
+    }
+
+    color: $dark;
+}
+
+/* Nav section ============================ */
+
+/* Header section ============================ */
+
+/* Display section ============================ */
+
+/* Roles section ============================ */
+
+/* Footer section ============================ */
