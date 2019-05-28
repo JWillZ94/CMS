@@ -14,76 +14,96 @@
 
     <nav id="nav-section" class="dark-bg navbar navbar-expand-lg sticky-top">
         <img src="/assets/company-logo-placeholder.png" alt="logo" class="navbar-brand">
-        <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <div class="navbar-nav mr-auto">
-            <a href="#" class="nav-item nav-link">Platform</a>
-            <a href="#" class="nav-item nav-link">Solutions</a>
-            <a href="#" class="nav-item nav-link">Resources</a>
-            <a href="#" class="nav-item nav-link">About</a>
-            <a href="#" class="nav-item nav-link">Contact Us</a>
-        </div>
-        <div class="navbar-nav">
-            <span class="nav-item nav-link"><i class="fas fa-search"></i></span>
-            <a href="#" class="nav-item nav-link"><i class="fas fa-user-lock"></i> Client Login</a>
-            <a href="#" class="nav-item nav-link"><i class="fas fa-users"></i> Lead Retrieval</a>
+        <button id="h-btn" class="d-flex flex-column justify-content-around btn" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <div class="mx-auto"></div>
+            <div class="mx-auto"></div>
+            <div class="mx-auto"></div>
+        </button>
+        <div id="navbarNav" class="d-flex justify-content-between w-100 collapse navbar-collapse">
+            <div class="navbar-nav mr-auto">
+                <a href="#" class="nav-item nav-link">Platform</a>
+                <a href="#" class="nav-item nav-link">Solutions</a>
+                <a href="#" class="nav-item nav-link">Resources</a>
+                <a href="#" class="nav-item nav-link">About</a>
+                <a href="#" class="nav-item nav-link">Contact Us</a>
+            </div>
+            <div class="navbar-nav">
+                <span class="nav-item nav-link"><i class="fas fa-search"></i></span>
+                <a href="#" class="nav-item nav-link"><i class="fas fa-user-lock"></i> Client Login</a>
+                <a href="#" class="nav-item nav-link"><i class="fas fa-users"></i> Lead Retrieval</a>
+            </div>
         </div>
     </nav>
     <section id="header-section" class="color-bg">
-        <h1>Grow your meetings & events.</h1>
-        <h5>Our <strong>Event Management Technology</strong> has enabled thousands of brands globally to transform the way they plan and execute their meetings and events.</h5>
-        <button>See a Demo</button>
+        <div class="container text-center py-5">
+            <h1 class="my-5">Grow your meetings & events.</h1>
+            <h5 class="my-5">Our <strong>Event Management Technology</strong> has enabled thousands of brands globally to transform the way they plan and execute their meetings and events.</h5>
+            <button class="my-5">See a Demo</button>
+        </div>
     </section>
     <section id="display-section" class="light-bg">
-        <h1>Deliver and measure success for every step of every event.</h1>
-        <div>
-            <img src="/assets/280x280-placeholder.png" alt="screen pics">
-            <ul>
-                <li>
-                    <h4>The true end-to-end event management platform</h4>
-                    <p>Automate and simplify the entire process of bringing people together at conferences, trade shows, meetings and more.</p>
-                </li>
-                <li>
-                    <h4>Fully integrated mobile event app</h4>
-                    <p>Keep your audience engaged and informed with an easily customizable and fully branded event app.</p>
-                </li>
-                <li>
-                    <h4>Cutting-edge onsite technology and services</h4>
-                    <p>Gain event intelligence with lead retrieval, check-in and badging solutions powered by NFC, RFID, Bluetooth LE and facial recognition.</p>
-                </li>
-            </ul>
+        <div class="container py-5 text-center">
+            <h1 class="text-center my-5">Deliver and measure success for every step of every event.</h1>
+            <div class="d-flex justify-content-center my-5">
+                <img id="ds-img" class="w-100 h-100" src="/assets/280x280-placeholder.png" alt="screen pics">
+                <ul class="w-50">
+                    <li class="card mb-3 p-3">
+                        <h4 class="card-title">The true end-to-end event management platform</h4>
+                        <p class="card-text">Automate and simplify the entire process of bringing people together at conferences, trade shows, meetings and more.</p>
+                    </li>
+                    <li class="card my-3 p-3">
+                        <h4 class="card-title">Fully integrated mobile event app</h4>
+                        <p class="card-text">Keep your audience engaged and informed with an easily customizable and fully branded event app.</p>
+                    </li>
+                    <li class="card mt-3 p-3">
+                        <h4 class="card-title">Cutting-edge onsite technology and services</h4>
+                        <p class="card-text">Gain event intelligence with lead retrieval, check-in and badging solutions powered by NFC, RFID, Bluetooth LE and facial recognition.</p>
+                    </li>
+                </ul>
+            </div>
+            <p class="text-center my-5">Our Event Management Technology has the power and flexibility global enterprises need and the ease-of-use and scalability that event organizers love. Interested? Take the next step.</p>
+            <button class="mx-auto my-5">Schedule My Demo</button>
         </div>
-        <p>Our Event Management Technology has the power and flexibility global enterprises need and the ease-of-use and scalability that event organizers love. Interested? Take the next step.</p>
-        <button>Schedule My Demo</button>
     </section>
     <section id="roles-section" class="color-bg">
-        <h1>Find the perfect solution for your role</h1>
-        <ul>
-            <li>
-                <img src="/assets/speaker-person-placeholder.png" alt="img">
-                <h5>Lorem Ipsum</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quaerat magni vitae ducimus nostrum ea, tempore minus cupiditate ad autem pariatur aliquam quae optio tenetur.</p>
-            </li>
-            <li>
-                <img src="/assets/speaker-person-placeholder.png" alt="img">
-                <h5>Lorem Ipsum</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perferendis qui dolorum aperiam, voluptatum ab, culpa dolor in illum doloremque! Sequi ipsam excepturi non ratione?</p>
-            </li>
-            <li>
-                <img src="/assets/speaker-person-placeholder.png" alt="img">
-                <h5>Lorem ipsum</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim repellendus tempora, illo vitae similique veritatis. Placeat inventore illo dicta vitae exercitationem distinctio, adipisci alias!</p>
-            </li>
-        </ul>
+        <div class="container py-5">
+            <h1 class="text-center my-5">Find the perfect solution for your role</h1>
+            <ul class="p-0 my-5">
+                <div class="row mb-3 d-flex justify-content-center">
+                    <li class="card mx-3 p-3 col-sm-5">
+                        <img class="role-img" src="/assets/speaker-person-placeholder.png" alt="img">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quaerat magni vitae ducimus nostrum ea, tempore minus cupiditate ad autem pariatur aliquam quae optio tenetur.</p>
+                    </li>
+                    <li class="card mx-3 p-3 col-sm-5">
+                        <img class="role-img" src="/assets/speaker-person-placeholder.png" alt="img">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perferendis qui dolorum aperiam, voluptatum ab, culpa dolor in illum doloremque! Sequi ipsam excepturi non ratione?</p>
+                    </li>
+                </div>
+                <div class="row mt-3 d-flex justify-content-center">
+                    <li class="card mx-3 p-3 col-sm-5">
+                        <img class="role-img" src="/assets/speaker-person-placeholder.png" alt="img">
+                        <h5 class="card-title">Lorem ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim repellendus tempora, illo vitae similique veritatis. Placeat inventore illo dicta vitae exercitationem distinctio, adipisci alias!</p>
+                    </li>
+                    <li class="card mx-3 p-3 col-sm-5">
+                        <img class="role-img" src="/assets/speaker-person-placeholder.png" alt="img">
+                        <h5 class="card-title">Lorem ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim repellendus tempora, illo vitae similique veritatis. Placeat inventore illo dicta vitae exercitationem distinctio, adipisci alias!</p>
+                    </li>
+                </div>
+            </ul>
+        </div>
     </section>
-    <section id="footer-section" class="dark-bg">
-        <div>
+    <section id="footer-section" class="dark-bg p-5">
+        <div class="container-fluid d-flex justify-content-between">
             <span>&copy; Company Name. All Rights Reserved.</span>
-            <select name="" id="">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+            <select>
+                <option value="">Select Region</option>
+                <option value="ap">Region: Asia Pacific</option>
+                <option value="na">Region: North America</option>
+                <option value="eu">Region: Europe</option>
             </select>
         </div>
     </section>
